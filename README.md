@@ -44,6 +44,8 @@ We are aiming to build quickly and need your help with bringing over content fro
 ## 🐞 Current Issues/Things to Work On
 
 - [ ] Website breaks / looks ugly when sized between touch/mobile and desktop.
+- [ ] Chameleon SVG Logo is not right aligned on desktop.
+- [ ] Chameleon SVG Logo has choppy grident transition on mobile.
 - [ ] Content is lacking for:
   - [ ] Tech
   - [ ] Mining
