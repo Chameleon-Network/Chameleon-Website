@@ -10,12 +10,46 @@ We’ve made this repository public for several reasons:
 - 🌍 To encourage community involvement in building the Chameleon project.
 - 🤝 To seek assistance from the community for content creation and enhancement.
 
+## 🛠️ Technologies Used
+
+The website is designed using the following technologies:
+
+- **Bulma**: For quick and easy CSS coding. https://bulma.io/
+- **SSI (Server Side Includes)**: For easier management of the header, footer, and navigation.
+
+We can also use:
+
+- **Bootstrap Icons**: https://icons.getbootstrap.com/
+- **Google Font Icons**: https://fonts.google.com/icons
+
+## ❌ Technologies Not Used
+
+Currently, we do not use the following technologies to ensure the best security, end-user experience, and loading times:
+
+- JavaScript
+- PHP
+- Databases (e.g., MySQL, PostgreSQL)
+- Server-side frameworks (e.g., Node.js, Ruby on Rails)
+- Client-side frameworks (e.g., React, Angular, Vue.js)
+
+We are not opposed to using these technologies if there is a good reason to do so. We are open to suggestions and discussions on how they can enhance the project.
+
 ## 🙌 How You Can Help
 
-We are aiming to launch quickly and need your help with bringing over content from the Incognito chain. You can reference the Incognito content via the WayBack Machine:
+We are aiming to build quickly and need your help with bringing over content from Incognito v1. If you pick a section to work on please let the community know via TG/Discord to collab and not overlap. You can reference the Incognito content via the WayBack Machine:
 
 - 🌐 [Incognito Website](https://web.archive.org/web/20240321165852/https://incognito.org/)
 - 🗣️ [Incognito Forum](https://web.archive.org/web/20240510113046/https://we.incognito.org/)
+
+## 🐞 Current Issues/Things to Work On
+
+- [ ] Website breaks / looks ugly when sized between touch/mobile and desktop.
+- [ ] Content is lacking for:
+  - [ ] Tech
+  - [ ] Mining
+  - [ ] About
+- [ ] Holding Chameleon SVG not rendering correctly all the time.
+- [ ] 404 page needs helpful links.
 
 ### 🛠️ Steps to Contribute
 
