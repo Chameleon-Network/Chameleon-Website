@@ -50,6 +50,7 @@ We are aiming to build quickly and need your help with bringing over content fro
   - [ ] About
 - [ ] Holding Chameleon SVG not rendering correctly all the time.
 - [ ] 404 page needs helpful links.
+- [ ] Fix Mobile Navigation.
 
 ### 🛠️ Steps to Contribute
 
