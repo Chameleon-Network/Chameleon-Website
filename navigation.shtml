@@ -1,0 +1,34 @@
+  <!-- Desktop Navigation -->
+  <div class="cell mt-0 is-hidden-touch is-row-start-3 is-col-start-2 is-col-span-2">
+    <nav class="buttons has-text-centered has-addons is-centered">
+      <a href="index.html" class="button is-rounded is-primary">CHML Coin</a>
+      <a href="tech.html" class="button is-rounded is-primary">Technology</a>
+      <a href="maintenance.html" class="button is-rounded is-primary">Forum</a>
+      <a href="#" class="button is-rounded is-primary">Mining</a>
+      <a href="#" class="button is-rounded is-primary">About Us</a>
+    </nav>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div class="column is-hidden-desktop my-3">
+    <div class="navbar-brand is-primary is-rounded is-color-black">
+      <span class="navbar-item">Links</span>
+      <button class="navbar-burger" id="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="nav-links" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="index.html" class="navbar-item is-primary">CHML Coin</a>
+        <a href="tech.html" class="navbar-item is-primary">Technology</a>
+        <a href="maintenance.html" class="navbar-item is-primary">Forum</a>
+        <a href="#" class="navbar-item is-primary">Mining</a>
+        <a href="#" class="navbar-item is-primary">About Us</a>
+        <a href="#" class="navbar-item"><i class="bi bi-google-play pr-2"></i><strike>Install Android</strike></a>
+        <a href="#" class="navbar-item"><i class="bi bi-apple pr-2"></i><strike>Install iOS</strike></a>
+      </div>
+    </div>
+  </div>

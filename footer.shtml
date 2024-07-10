@@ -1,0 +1,46 @@
+<footer class="container columns is-vcentered mt-4 is-transparent footer">
+    <div class="column has-text-centered is-vcentered">&copy; 2024 Chameleon Network</div>
+    <div class="column has-text-centered is-vcentered"><a href="#">Privacy Policy</a> 🦎 <a href="#">Terms of Service</a></div>
+    <div class="column has-text-centered is-vcentered">
+      <a href="#" class="button"><i class="bi bi-file-earmark"></i></a>
+      <a href="#" class="button"><i class="bi bi-chat-dots-fill"></i></a> 
+      <a href="https://t.me/Incognito_v2" class="button"><i class="bi bi-telegram"></i></a>
+      <a href="#" class="button"><i class="bi bi-twitter-x"></i></a> 
+      <a href="https://discord.gg/QpBrET2x" class="button"><i class="bi bi-discord"></i></a>
+      <a href="#" class="button"><i class="bi bi-reddit"></i></a> 
+      <a href="https://github.com/Chameleon-Network" class="button"><i class="bi bi-github"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!--
+<footer class="container is-hidden-desktop columns is-vcentered mt-5 is-transparent footer">
+  <div class="column has-text-centered is-vcentered">&copy; 2024 Chameleon Network</div>
+  <div class="column has-text-centered is-vcentered"><a href="#">Privacy Policy</a> <span class="title">🦎</span> <a href="#">Terms of Service</a></div>
+  <div class="column has-text-centered is-vcentered">
+    <a href="#" class="button"><i class="bi bi-file-earmark is-size-6"></i></a>
+    <a href="#" class="button"><i class="bi bi-chat-dots-fill is-size-6"></i></a> 
+    <a href="https://t.me/Incognito_v2" class="button"><i class="bi bi-telegram is-size-6"></i></a>
+    <a href="#" class="button"><i class="bi bi-twitter-x is-size-6"></i></a> 
+    <a href="https://discord.gg/QpBrET2x" class="button"><i class="bi bi-discord is-size-6"></i></a>
+    <a href="#" class="button"><i class="bi bi-reddit is-size-6"></i></a> 
+    <a href="#" class="button"><i class="bi bi-github is-size-6"></i></a>
+  </div>
+</div>
+</footer>
+-->
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const burgerMenu = document.getElementById('burger-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  burgerMenu.addEventListener('click', () => {
+    burgerMenu.classList.toggle('is-active');
+    navLinks.classList.toggle('is-hidden');
+  });
+});
+</script>
+
+</body>
+</html>
