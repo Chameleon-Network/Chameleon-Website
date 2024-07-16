@@ -50,7 +50,7 @@ We are aiming to build quickly and need your help with bringing over content fro
   - [ ] Tech
   - [ ] Mining
   - [ ] About
-- 🗹 Holding Chameleon SVG not rendering correctly all the time.
+- 🗹 <s>Holding Chameleon SVG not rendering correctly all the time.</s>
 - [ ] 404 page needs helpful links.
 - [ ] Fix Mobile Navigation.
 
