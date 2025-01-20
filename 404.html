@@ -1,5 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs ––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Chameleon Network</title>
+  <meta name="description" content="">
+
+  <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––––––––––--- -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––----– -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css">
+  <link rel="stylesheet" href="https://chml.network/stylesheet.css">
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://chml.network/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://chml.network/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://chml.network/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://chml.network/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="https://chml.network/assets/favicon/safari-pinned-tab.svg" color="#333333">
+  <link rel="shortcut icon" href="https://chml.network/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#333333">
+  <meta name="msapplication-config" content="https://chml.network/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#333333">
+
+  <!-- Video Support -------------------------------------------- -->
+  <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
+</head>
+<body class="">
+
+<header class="container pt-2 mb-4 px-3-touch is-transparent">
+        <div class="grid has-6-cols has-2-cols-mobile has-3-rows">
+            <div class="cell logo is-flex is-align-items-center is-col-span-1-mobile is-row-span-2">
+             <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 699 699">
+              <defs>
+                <linearGradient id="gradient1" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#ffa500;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+                <path fill="url(#gradient1)" d="m304.1 656.7c-4.7-0.4-10.5-1.1-13-1.7-2.5-0.5-6.6-1.3-9.1-1.6-6.7-1-22.7-5.1-33.2-8.6-30.8-10.2-65.7-32.2-88.1-55.3-13.7-14.2-21-24.1-31.5-43-4.2-7.5-9.5-15.4-12.7-18.8-13.8-14.9-32.6-40.6-43.5-59.3-14.7-25.3-27.5-56.1-32.9-79-1.2-4.9-2.5-10.6-3.1-12.6-0.5-2-1.7-8.3-2.5-14-0.8-5.7-2-14-2.6-18.4-1.5-10.1-1.5-51.7 0-61 0.6-3.8 1.6-10.3 2.2-14.5 2.9-20.4 13.2-53.9 22.5-73.8 8.3-17.6 16.4-31.2 32.4-54.1 11-15.8 33.4-39.7 55.4-59.1 54.2-47.7 118.8-73 186.5-73 25.3 0 55.2 4.2 76.6 10.7 23.8 7.2 34.8 11.5 51.7 19.8 69.2 34.5 124.7 91.9 153.6 159 11.3 26.2 20.1 62.9 22.4 93 2.9 39.9-3 83.8-16.3 120.5-17.2 47.7-46.6 90.1-86.9 125.3-10.2 9-12.8 11.8-14.2 15.6-12.5 32.7-42.4 63-80.8 82.2-11.3 5.6-29.4 12.3-42 15.4-25.8 6.5-60.1 8.9-90.9 6.3zm195.9-135c2.6-16-1.8-33.4-9.7-47.6-9.2-16.7-24.4-30.8-41.5-39.3-14-7-30.7-8.8-46.4-7.7-12.9 0.9-26 4.9-37 11.8-9 5.6-16.8 13.8-22 23-5.3 9.3-7.8 20.2-8.4 30.8-0.6 12.8 0.5 26.4 6.1 37.9 5.6 11.3 15 21.4 26 27.6 10.8 6.2 24.2 9 36.6 7.9 10.7-1 21.8-5.1 29.9-12.2 7.3-6.4 12.4-15.8 14.3-25.3 2-9.6 0.9-20.4-3.1-29.3-3.7-8.4-10.2-16.4-18.4-20.5-8.7-4.2-20.5-6.8-28.9-2-8.6 4.8-15 16.4-13.4 26.1 1.3 8.6 9.7 18.1 18.4 18.4 3.7 0.1 7.6-3.7 8.3-7.3 1.2-6-12.7-8.1-8.1-16.5 5.3-9.5 16.5-0.1 21.6 5.3 4.7 4.8 5.4 13.1 4 19.7-1.3 5.9-5.7 11.3-10.8 14.6-6.8 4.4-15.8 6.6-23.8 5-9.6-2-18.5-9-24.1-17-6-8.5-9.3-19.7-8.2-30 1.3-11.7 6.7-24.5 16.4-31.2 13.4-9.5 33-11.5 48.7-6.6 19 5.9 37.1 21.7 44.1 40.5 6.1 16.5 2.3 37.2-6.4 52.6-9.7 17.3-28.3 29.7-46.9 36.7-21.5 8-46 6.5-68.8 3.5-23.7-3.1-46.9-11.4-68.2-22.3-12.5-6.4-24-15.2-34.2-25-6.6-6.3-22.9-14.3-17.1-21.5 1.5-1.9 4.2 2.7 6.6 3.4 2.3 0.6 4.9 1 7.3 0.5 7.6-1.5 13.9-3.6 20.9-10.6 3.8-3.7 11.2-14.1 11.2-15.5 0-0.3 1-2.7 2.2-5.3l2.2-4.9 0.7 4c0.5 2.2 0.9 10.8 0.9 19 0.1 25.2 1 30.3 11.2 39.5 3.5 3.2 9.3 3.5 13.8 2.5 7-1.5 18.9-3.2 17.5-12.3-0.9-6.5-7.5-13.2-13-13.2-2.1 0-5.3 1-7.3 2.2-3.3 2.1-3.5 2.1-2.7 0.3 6.2-14.6 8.5-29.8 7.3-44.9-0.6-9-2.1-19.2-8.2-25.7-3.7-3.9-9.6-6.3-14.9-5.8-24 2.2-43.9 21.5-61.5 37.9-3 2.8-3.2 11-7.2 10-1.8-0.4-1.2-3.5-1-5.3 1.8-14.9 8-29.9 17.8-41.3 6.6-7.7 16.5-12.6 26-16.2 6.9-2.6 14.4-3.6 21.7-3.6 6.7-0.1 13.5 1 19.9 3.2 3.5 1.2 8.1 4.2 9.8 5.4l3.1 2.1-0.8-2.4c-1.5-4.7-2.4-9.4-2.4-12.7l-0.1-3.4-9.2 0.6c-27.1 1.8-30.1 1.8-33.8-0.1-2-1-4.5-3.6-6-6.3-2.2-4.1-2.5-5.5-2.4-16 0.1-8.4 0.7-13.7 2.3-19.9 4.1-15.4 4.5-14.8 5.4 6.9 0.4 10.8 1.2 20.5 1.7 21.6 1.2 2.8 4.7 3.4 20.2 3.4 17.3 0 30.5-1.6 40.7-5.1 7.9-2.7 13.1-3.6 13.1-2.3 0 0.3-1.9 3-4.2 6.1-6.6 8.6-7.7 10.6-7.8 13.4 0 7.9 11.3 6.4 23.2-3 9.8-7.8 13.8-15 13.8-24.9 0-7.2-1.4-10.6-6.4-15-4.6-4.1-8.1-4.6-26.1-3.9-16.7 0.7-34.2 4-42.7 8.1l-4.8 2.3v-3.3c0-1.8 0.9-5.5 1.9-8.1 1-2.6 2.2-6.6 2.6-8.8 2.2-12.9 4.5-15.2 4.5-4.5 0 5.2 0.4 7 1.4 7 0.7 0 4.9-1.5 9.2-3.3 4.4-1.9 11.7-4.2 16.2-5.3 4.5-1 8.2-2.1 8.2-2.4 0-0.3-5.2-2.5-11.7-4.9-12.9-4.9-20.8-8.5-21.7-10.1-0.9-1.3 0-1.2 5.4 0.4 3.5 1.1 12.3 1.3 38.5 1.2 30.9-0.2 35-0.4 44-2.4 27.1-5.9 49.4-15.9 71.5-32 13.4-9.7 29.1-26.5 37.1-39.6 3.9-6.4 10.8-25.1 9.7-26.2-0.4-0.3-3.9 1.2-7.9 3.5-15.4 8.4-34.6 14.6-58.9 18.9-14.8 2.6-17 2.7-48.5 2.7-32.1-0.1-36.1-0.3-57-3.9-14.8-2.5-31.3-8.5-39-14.1-6.5-4.9-11.1-6.5-18.5-6.5-7.1 0-11.3 1.4-13.9 4.5-3.1 3.7-4.2-0.8-1.6-6.9 1.7-4.2 8.8-9.6 12.7-9.6 3.5 0 3.5-1.2-0.2-7-4.2-6.6-7.7-14.4-10.1-22.2-3.7-12.2-1.6-33.3 4.3-43.9 7.8-14 17.2-23.2 29.9-29.2 10-4.7 17-5.9 31.4-5.4 13.7 0.5 19.2 1.9 31.6 8.2 14.2 7.1 26.4 18.9 32.7 31.5 12.4 25.2 6.3 56.7-14.6 71.9-3.6 2.7-6.8 3.9-11 5.5-3.6 1.3-7.2 2.6-7.2 1.7 0-0.5 3.1-2.6 6.8-4.7 15.1-8.7 24.5-21.8 26.5-37.1 2.4-17.8-0.9-30.8-16.2-44.5-5.4-5-5.4-4-8.6-4.3-6.2-0.6-14.2 0.1-18.1 5-3.1 3.9-2.9 10.5-0.7 15 2.2 4.8 7.4 8.9 12.6 9.4 4.7 0.5 9.1-3 12.9-5.8 2.3-1.8 3.5-4.8 5.8-6.7 2.9-2.3 6.4 13.2 6.2 20.3-0.3 10-3.4 21.1-10.6 28-8.3 8.1-21.4 11.1-33 11.4-5.9 0.1-11.9-1.9-16.9-4.9-2.5-1.5-8.9-5.8-5.9-6.3 3.8-0.6 8.1-4 8-7.7-0.2-3.6-4.8-7.2-8.4-6.7-3.6 0.4-6.3 4.9-6.4 8.8 0 3.8-8.1-4.8-10.2-8.8-5.5-10.1-7.2-23.1-4.2-34.2 2.6-9.7 10.7-17.3 18.1-24.1 3-2.7 10.3-6 10.3-6.4 0.1-1.1-0.7-1-7.7 1.1-16 4.9-30.3 19-37 34.4-5.3 12.2-6.4 28.2 0.1 39.7 11.3 19.9 27.6 30.5 58.8 35.2 12.2 1.9 18.7 2.2 43.8 2.2 27.4 0 30.7-0.2 45-2.7 28.3-4.8 49.5-11 63.5-18.6 15-8 14.8-7.9 14.1-12.4-1-6.3-6.2-15.1-12.5-20.9-3.1-2.9-14.4-12.5-25.1-21.3-10.7-8.8-22.2-18.4-25.5-21.5-3.3-3-9.9-8.8-14.5-13-4.6-4.1-11.6-10.4-15.5-14-12.4-11.4-14.8-13.5-23.5-20.1-27.8-21.2-52.8-33.2-83.8-40.3-26.6-6.2-52.9-3.5-68.4 6.8-8.9 6-13.3 13.4-14.4 24.5-0.5 4.8 0 7.2 3.1 16.1 5.3 15.4 4.9 22.4-1.9 31.1-5 6.4-12.5 10.5-24.6 13.5-20.5 5.1-29.9 14.1-34.5 33.1-1.6 6.9-1.6 7.6 0.1 14.5 0.9 4 2.5 8.9 3.5 10.8l1.8 3.5 0.6-4c3.5-20.9 16.4-40.8 33.5-52.2 6.3-4.2 18-10.4 22.7-12 2.6-0.9 3.9-2.6 7.5-9.9 8.7-18 24.9-33.7 43.8-42.6 25.6-12 58.3-12.3 82-0.7 16.6 8.1 35.7 26.7 42.9 41.9 1.2 2.4 2.1 4.9 2.1 5.4 0 0.6-3.7-2.5-8.2-7-9.9-9.7-14-12.9-23.3-18-16.7-9.3-29-12.6-48-12.7-12.3-0.1-15.1 0.2-24 2.7-16 4.4-30 13.5-39.8 25.8-4 5.1-10.7 18.2-10.7 21.1 0 3.9-1.8 5.5-7.1 6.3-9.9 1.3-22.3 6.9-31.1 13.9-14.5 11.5-23.9 31.5-25.4 54-1 15.3 4 36.3 12 49.9 5.4 9.1 18.4 21.4 29.6 27.9 8.2 4.7 24.9 9.7 36.7 10.8 15.7 1.5 18.1 2 16.3 2.9-0.8 0.4-3.4 1.1-5.7 1.5-5.7 0.9-4.6 2.1 2.8 2.9 3.3 0.3 7 1.1 8.2 1.8 2.5 1.3 2.5 1.3-7.3 3.9-4 1.1-63.8 3.1-65.3 2.2-1.8-1.1 2.7-3.3 7-3.3q11.7 0 0.5-3.5c-3.8-1.2-9.1-3.4-11.7-4.8l-4.7-2.7-5.7 3.5c-25.2 15.3-51.5 51.9-62.2 86.5-6.2 20.1-7.9 36-5.8 54.5 3.5 30.6 4.6 34.5 16.6 58.5 7.6 15.1 14.2 24 28.2 38.4 30.1 30.6 72.5 52.5 115.1 58.5 54.6 7.7 117.6 0.8 162.4-31.3 24.3-17.4 39.9-48.3 44.6-77.8zm-338.6 10.1c-2-1.8-3.1-6.4-1-8 1.9-1.5 5.1 0.7 6.8 2.4 1.4 1.4 3.2 4.2 2 5.9-1.6 2.1-5.9 1.5-7.8-0.3zm-13.8-19.4c-5.1-3.6-7.3-12.2-5-18 1.8-4.2 7.8-8.6 11.9-6.7 7.4 3.3 9.7 17.4 4.8 23.8-2.4 3.1-8.5 3.2-11.7 0.9zm384-21.6c25.1-26.7 47.5-63.7 58.1-95.9 9.3-28.5 12.5-48.9 12.6-82 0.1-24.7-1.4-38.6-6.4-60-8.1-34.3-24.1-68.4-45.8-97.5-6.2-8.2-21-25.2-25.7-29.5-12.3-11.1-23.4-20.8-26.3-23-1.9-1.3-5.6-4.2-8.3-6.3-12.1-9.5-29.3-20-43.8-26.9-16.5-7.9-24.7-11.1-42-16.8-17-5.5-38.1-9.6-62-12-6.3-0.7-11.8-1.4-12.1-1.6-0.4-0.2-6.2-1-13-1.8-6.8-0.8-16.6-2-21.9-2.6-23.4-2.9-50.3 1.9-71.5 13.9-17.3 9.9-33.9 32.4-39.9 44.6-0.1 0.2-5.2 5.4-10.8 9.5-13.8 10.2-43.8 40.2-54.9 55-12.2 16.4-21.2 30.6-28.5 45.3-3.5 7-6.4 13-6.4 13.5 0 0.4-0.6 2-1.4 3.5-0.8 1.5-3 7.3-4.9 13-15.5 45.8-17.5 93.5-6.2 141.9 3.2 13.4 7.7 28.2 10.5 34.3 0.5 1.1 2.4 5.4 4.1 9.5 5 11.8 9.6 20.6 15.7 29.9l5.7 8.6 0.6-7.5c0.7-7.3 3.2-14.2 6.7-18.2 1.5-1.7 1.3-2.2-2.5-6-5.4-5.6-7.3-9.7-7.2-15.5 0-9.6 7-19.1 22-29.6 3.6-2.5 8.9-5.7 11.7-7.2 5.2-2.6 6.2-3.8 4.2-5-1.9-1.2-5.8-8.1-6.9-12.4-0.9-3.4-0.9-5.2 0.4-9.5 2.6-8.9 9.5-13.8 27-19.2 4.4-1.3 12.4-3.8 17.7-5.4 5.4-1.7 10-3.4 10.3-3.9 0.3-0.5-0.8-2.4-2.5-4.2-4-4.4-11.3-16.5-14.4-23.7-2.9-7.1-5.4-16.7-6.5-25.3-0.8-6.2-1.1-6.8-5.9-11.3-6.9-6.5-13.7-16.7-16.6-25.1-2.1-5.8-2.5-8.8-2.5-18.5-0.1-13.5 1.4-20 6.9-31.5 8-16.5 22.8-27.4 45.2-33.1 11.2-2.8 13.9-6.7 10.8-15-2.5-6.5-5-17.7-5-22.4 0-28 21.4-49.6 56-56.6 11.9-2.4 35.4-2.4 48 0 28.1 5.3 60.4 18.5 79.6 32.6 7.8 5.7 8.4 5.8 20.4 2.6 28.4-7.8 67.8 17.2 80.5 51 2.6 6.9 5.1 24.8 4.1 30-0.7 3.8 0.3 5 14 16.7 17.4 14.8 22.4 22.1 25.9 38.2 2.5 11.4 1 29.2-3.6 43.5-8.3 25.4-25.3 48.9-49.1 68.1-18.1 14.5-33.8 22.8-54.5 28.5-0.8 0.2 0.7 2.9 3.6 6.8 2.7 3.6 5.5 8.1 6.2 10.2 1.4 4.4 1.8 14.4 0.7 19.6l-0.8 3.7 5.7 1.2c11.8 2.4 29.9 10.6 41.2 18.6 23.9 17.1 39.5 41.4 45.6 71.6 0.7 3.4 2.3 2.8 8.1-3.4zm-388.5-27.3c-4.1-3.1-4.9-10.1-3.5-15 1.7-5.9 6.8-13.6 12.8-12.9 4.5 0.5 6.6 7.1 7.1 11.6 0.6 5.5-1 12.5-5.5 15.8-2.9 2.2-8 2.7-10.9 0.5zm30.5-36.9c1.3-1.3 3.9-1.5 5.5-0.6 1.9 0.9 3 3.4 3.2 5.5 0.2 2.2-0.5 5-2.4 6.2-2.1 1.3-5.8 1.3-7.4-0.6-2.2-2.7-1.4-8 1.1-10.5zm-16.6-17c-1.9-3.7 0.3-8.6 2.5-12.1 1.5-2.2 3.8-4.8 6.4-4.8 2.8 0 6.2 2.2 6.9 5 1.4 5.6-2.3 13.5-7.8 15.5-2.7 1-6.7-1-8-3.6zm29.1-41.4c-0.4-4.8 4.8-10.3 9.6-10.9 2.4-0.3 5.5 1.5 6 3.9 0.9 5-3.9 11.6-9 12.3-2.8 0.4-6.4-2.5-6.6-5.3zm47.1-15.7c-7-0.8-9.8-0.7-9.5-2.3 0.6-2.5 9.8-1.3 19.8-1.2 9.4 0.2 11.4 0.5 10.5 2.3-0.9 1.8-13 2-20.8 1.2zm121.3-49.3c-29.8-3.1-48.8-11.4-61.8-27.3-5.8-7.1-4.6-7.7 5.1-2.4 17.9 9.8 27.2 14.6 41.7 19.8 9.6 3.4 23 6.4 29.5 7.2 4.2 0.6 5 0.9 3.3 1.5-2.4 0.9-13.4 1.7-17.8 1.2zm93.1-70.5c-3.2-2.8-3.9-5.2-4.3-8.3-0.3-2.3-0.2-5.3 1.6-6.8 1.4-1.2 1.9-1.6 5.6-0.1 3.6 1.4 12 13.6 8.3 17.2-2.2 2.3-7.2 1.4-11.2-2zm42.6-11.8c-4.6-4.6-6.9-7-5.3-10.5 1.8-3.9 6.1-3.4 10.4 1.4 3.5 3.8 5.5 9.1 4.3 11.1-1.2 1.9-5.4 2-9.4-2zm-256.1-109.8c-1.5-2.9 0.5-8.7 3.9-11.1 5.2-3.7 9-2.2 9 3.5 0 6.2-10.3 12.3-12.9 7.6zm-65.6 361.3c1.7-1.6 5.2-1.5 7-0.1 2.7 2.2 4.3 7.5 2.1 10.1-2.1 2.7-8 2.8-10.3 0.2-2.3-2.5-1.4-7.9 1.2-10.2zm228.5-71c7.4-1.7 11.5-4.6 12.6-8.9 2.5-9.8-9.5-18.6-25.1-18.6-4.1 0-7.5 0.3-7.5 0.6 0 0.3 2 2.8 4.3 5.5 4.7 5.5 7.5 12.3 7.7 18.7 0 2.3 0.3 4.2 0.6 4.2 0.3 0 3.6-0.7 7.4-1.5zm68-245.3c0-4.3-5.2-19-8.2-22.7-11-14-15.1-17.5-25.5-21.9-4.5-1.9-7.9-2.6-12.7-2.6-6.9 0-8 0.9-4.3 3.5 1.9 1.3 45.2 42 48.1 45.2 1.8 2 2.6 1.5 2.6-1.5zm-273.5 230.1c1.8-0.8 4.6-0.2 5.8 1.3 1.3 1.7 0.8 4.5-0.1 6.5-1 2-2.8 4.1-5 4.4-2.2 0.3-5.3-0.8-5.9-2.9-1.1-3.4 2-7.9 5.2-9.3zm-48.9-105.2c0 0.5-8.7 3.6-12.3 7.1-3.4 3.5-6.7 12.3-7.3 12.3-0.6 0-3.5-8.6-6.8-11.9-3.6-3.7-12.7-6.9-12.7-7.5-0.1-0.5 8.8-3.6 12.2-7.1 3.7-3.4 6.9-12.3 7.3-12.3 0.4 0 3.9 9 7.3 12.3 3.6 3.5 12.3 6.6 12.3 7.1zm419.3 123.2c0 0.6-11.1 4.7-15.7 9.1-4.5 4.4-8.6 15.7-9.3 15.7-0.8 0-4.6-10.9-8.8-15.2-4.6-4.8-16.2-8.8-16.2-9.6-0.1-0.6 11.2-4.6 15.7-9 4.6-4.4 8.7-15.7 9.3-15.7 0.5 0 4.8 11.5 9.3 15.7 4.6 4.4 15.7 8.4 15.7 9zm-49.9-38.3c0 0.3-6.7 2.7-9.4 5.4-2.7 2.7-5.2 9.4-5.6 9.4-0.5 0-2.7-6.5-5.3-9.1-2.8-2.9-9.7-5.3-9.7-5.7 0-0.4 6.7-2.8 9.4-5.5 2.8-2.6 5.3-9.4 5.6-9.4 0.3 0 2.9 6.9 5.6 9.4 2.7 2.7 9.4 5.1 9.4 5.5zm50.1-28.7c0 0.5-8.4 3.5-11.9 6.9-3.4 3.3-6.6 11.9-7.1 11.9-0.6 0-3.4-8.3-6.7-11.5-3.5-3.7-12.3-6.7-12.3-7.3 0-0.5 8.5-3.5 11.9-6.9 3.5-3.3 6.7-11.9 7.1-11.9 0.4 0 3.7 8.7 7.1 11.9 3.5 3.4 11.9 6.4 11.9 6.9zm-448.3-19.9c0 0.4-6.3 2.6-8.9 5.1-2.5 2.6-4.9 8.9-5.3 9-0.4 0-2.6-6.2-5-8.7-2.6-2.7-9.2-5.1-9.2-5.4 0-0.4 6.4-2.6 8.9-5.1 2.6-2.5 4.9-8.9 5.3-8.9 0.4-0.1 2.8 6.5 5.3 8.9 2.6 2.5 8.9 4.6 8.9 5.1z"/>
+            </svg>
+            </div>
+            <div class="cell is-row-span-2 is-col-span-2 is-col-span-1-mobile is-align-items-center">
+                <p class="title is-size-1">CHAMELEON</p>
+                <p class="subtitle is-size-4">A Privacy Network <span class="tag border-green is-rounded">Pre-Alpha</span></p>
+            </div>
+
+  <!-- Desktop Navigation -->
+  <nav class="cell navbar m-0 buttons is-primary is-hidden-touch is-row-start-3 is-col-start-1 is-col-span-6">
+      <a href="/index.html" class="navbar-item m-1 button is-primary">CHML Coin</a>
+      <a href="/tech.html" class="navbar-item m-1 button is-dark">Technology</a>
+      <a href="https://forum.chml.network" target="_blank" class="navbar-item m-1 button is-primary">Community</a>
+       <div class="navbar-item has-dropdown is-hoverable">
+         <a href="#" class="navbar-item m-1 button is-primary">Mining<i class="bi bi-chevron-down"></i></a>
+        <div class="navbar-dropdown">
+      <a href="pnode.html" class="navbar-item m-1 button"><i class="fa-solid fa-microchip"></i>pNode - Physical</a>
+      <a href="vnode.html" class="navbar-item m-1 button"><i class="fa-solid fa-laptop-code"></i>vNode - Virtual</a>
+<!--      <a href="nnode.html" class="navbar-item m-1 button"><i class="fa-solid fa-hexagon-nodes"></i>nNode - Network</a>  -->
+       </div></div>
+
+       <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-item m-1 button is-primary">Get Connected<i class="bi bi-chevron-down"></i></a>
+        <div class="navbar-dropdown">
+      <a href="https://forum.chml.network/" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-discourse"></i> Forum</a>
+      <a href="https://t.me/Incognito_v2" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-telegram"></i> Telegram</a>
+      <a href="https://x.com/CHMLnetwork" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-x-twitter"></i> Twitter</a>
+      <a href="https://discord.gg/gV79PXJQGA" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-discord"></i> Discord</a>
+      <a href="https://bsky.app/profile/chameleoncoin.bsky.social" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-bluesky"></i> Bluesky</a>
+      <a href="https://www.reddit.com/r/ChameleonNetwork/" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-reddit-alien"></i> Reddit</a>
+<!--      <a href="#" class="navbar-item button is-primary"><i class="fa-brands fa-lg fa-github"></i> Github</a> -->
+</div>
+
+<!--
+</div>
+        <div class="navbar-end px-3">
+            <a href="#" class="navbar-item p-2 mt-2 border is-rounded-left has-text-centered mb-1"><i class="bi bi-google-play pr-2"></i>Install Android</a>
+            <a href="#" class="navbar-item p-2 mt-2 border is-rounded-right has-text-centered mb-1"><i class="bi bi-apple pr-2"></i>Install iOS</a>
+</div>
+-->
+
+
+  </nav>
+
+<!-- Mobile Navigation - Full-width Column -->
+<div class="columns is-fullwidth-mobile is-mobile is-gapless is-hidden-desktop">
+  <div class="column is-full">
+    <nav class="navbar is-primary is-spaced" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand is-flex is-justify-content-space-between is-align-items-center">
+        <a class="navbar-item">Website Navigation</a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMobile">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- Collapsible Menu -->
+      <div id="navbarMobile" class="navbar-menu is-transparent is-rounded is-mobile">
+        <div class="navbar-start is-flex is-flex-direction-column is-align-items-stretch">
+          <a href="/index.html" class="navbar-item border is-rounded has-text-centered mb-1">CHML Coin</a>
+          <a href="/tech.html" class="navbar-item border is-rounded has-text-centered mb-1">Technology</a>
+          <a href="https://forum.chml.network" target="_blank" class="navbar-item border is-rounded has-text-centered mb-1">Forum</a>
+          <a href="#" class="navbar-item border is-rounded has-text-centered mb-1"><s>Mining</s></a>
+          <a href="#" class="navbar-item border is-rounded has-text-centered mb-1"><s>About Us</s></a>
+          <hr class="custom-divider">
+          <a href="#" class="navbar-item border is-rounded has-text-centered mb-1"><i class="bi bi-google-play pr-2"></i><s>Install Android</s></a>
+          <a href="#" class="navbar-item border is-rounded has-text-centered mb-1"><i class="bi bi-apple pr-2"></i><s>Install iOS</s></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+         <div class="cell is-hidden-touch is-row-span-2 is-col-start-5 is-col-span-2 is-flex is-justify-content-center">
+                <div class="buttons has-text-centered has-addons is-centered">
+                    <a href="#" class="button is-rounded"><i class="bi bi-google-play pr-2"></i><s>Install Android</s></a>
+                    <a href="#" class="button is-rounded"><i class="bi bi-apple pr-2"></i><s>Install iOS</s></a>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
                                                                                                     
-<!--#include virtual="header.shtml" -->
 
     
     <div class="container border is-rounded is-transparent">
@@ -351,4 +484,45 @@
   </div>
 </div>
 
-<!--#include virtual="footer.shtml" -->
+<footer class="container columns is-vcentered mt-4 is-transparent footer">
+    <div class="column has-text-centered is-vcentered"><a href="https://status.chml.network/status/chameleon-network" target="_blank" class="p-4 mb-2 button tag border-green is-rounded"><i class="mr-2 fa-duotone fa-solid fa-chart-simple"></i> Uptime Status</a><br />&copy; 2024 Chameleon Network</div>
+    <div class="column has-text-centered is-vcentered"><a href="#">Privacy Policy</a> 🦎 <a href="#">Terms of Service</a></div>
+    <div class="column has-text-centered is-vcentered">
+      <a href="#" target="_blank" data-tooltip="White Paper"  class="button mb-2"><i class="fa-solid fa-lg fa-file-lines"></i></a>
+      <a href="https://forum.chml.network" target="_blank" data-tooltip="Forum" class="button mb-2"><i class="fa-brands fa-lg fa-discourse"></i></a>
+      <a href="https://t.me/Incognito_v2" target="_blank" data-tooltip="Telegram" class="button mb-2"><i class="fa-brands fa-lg fa-telegram"></i></a>
+      <a href="https://x.com/CHMLnetwork" target="_blank" data-tooltip="Twitter" class="button mb-2"><i class="fa-brands fa-lg fa-x-twitter"></i></a>
+      <a href="https://discord.gg/gV79PXJQGA" target="_blank" data-tooltip="Discord" class="button mb-2"><i class="fa-brands fa-lg fa-discord"></i></a>
+      <a href="https://bsky.app/profile/chameleoncoin.bsky.social" target="_blank" data-tooltip="BlueSky" class="button mb-2"><i class="fa-brands fa-lg fa-bluesky"></i></a>
+      <a href="https://www.reddit.com/r/ChameleonNetwork/" target="_blank" data-tooltip="Reddit" class="button mb-2"><i class="fa-brands fa-lg fa-reddit-alien"></i></a>
+      <a href="https://github.com/Chameleon-Network" target="_blank" data-tooltip="GitHub" class="button mb-2"><i class="fa-brands fa-lg fa-github"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+</script>
+
+</body>
+</html>

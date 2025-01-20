@@ -1,34 +1,63 @@
   <!-- Desktop Navigation -->
-  <div class="cell mt-0 is-hidden-touch is-row-start-3 is-col-start-2 is-col-span-2">
-    <nav class="buttons has-text-centered has-addons is-centered">
-      <a href="index.html" class="button is-rounded is-primary">CHML Coin</a>
-      <a href="tech.html" class="button is-rounded is-primary">Technology</a>
-      <a href="maintenance.html" class="button is-rounded is-primary">Forum</a>
-      <a href="#" class="button is-rounded is-primary">Mining</a>
-      <a href="#" class="button is-rounded is-primary">About Us</a>
+  <nav class="has-shadow is-spaced cell navbar m-0 buttons border is-hidden-touch is-row-start-3 is-col-start-1 is-col-span-6">
+      <a href="https://chml.network/index.html" class="has-shadow my-1 ml-1 navbar-item button is-primary border"><i class="bi bi-coin"></i>CHML</a>
+	  <div class="navbar-item has-dropdown is-hoverable">
+		<a class="my-1 navbar-item m-1 border button is-primary"><i class="fa-solid fa-microchip"></i>Mining<i class="bi bi-chevron-down"></i></a>
+        <div class="navbar-dropdown">
+      <a href="https://chml.network/pnode.html" class="m-1 navbar-item button"><i class="bi bi-pc-display-horizontal"></i>pNode - Physical</a>
+      <a href="https://chml.network/vnode.html" class="m-1 navbar-item button"><i class="fa-solid fa-laptop-code"></i>vNode - Virtual</a>
+<!--      <a href="https://chml.network/nnode.html" class="navbar-item m-1 button"><i class="fa-solid fa-hexagon-nodes"></i>nNode - Network</a>  -->
+       </div></div>
+      <a href="https://forum.chml.network" target="_blank" class="my-1 border navbar-item button is-primary"><i class="fa-brands fa-lg fa-discourse"></i>Forum</a>
+
+       <div class="navbar-item has-dropdown is-hoverable">
+          <a class="my-1 navbar-item m-1 border button is-primary has-addons is-centered"><i class="bi bi-people-fill"></i>Connect with Us<i class="bi bi-chevron-down"></i></a>
+        <div class="navbar-dropdown">
+      <a href="https://t.me/Chameleon_Network" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-telegram"></i>Telegram</a>
+      <a href="https://discord.gg/gV79PXJQGA" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-discord"></i>Discord</a>
+      <a href="https://x.com/CHMLnetwork" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-x-twitter"></i>Twitter</a>
+      <a href="https://bsky.app/profile/chameleoncoin.bsky.social" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-bluesky"></i>Bluesky</a>
+      <a href="https://www.reddit.com/r/ChameleonNetwork/" target="_blank" class="navbar-item m-1 button"><i class="fa-brands fa-lg fa-reddit-alien"></i>Reddit</a>
+<!--      <a href="#" class="navbar-item button is-primary"><i class="fa-brands fa-lg fa-github"></i> Github</a> -->
+</div>
+
+<!--
+</div>
+        <div class="navbar-end px-3">
+            <a href="#" class="navbar-item p-2 mt-2 border is-rounded-left has-text-centered mb-1"><i class="bi bi-google-play pr-2"></i>Install Android</a>
+            <a href="#" class="navbar-item p-2 mt-2 border is-rounded-right has-text-centered mb-1"><i class="bi bi-apple pr-2"></i>Install iOS</a>
+</div>
+-->
+
+
+  </nav>
+
+<!-- Mobile Navigation - Full-width Column -->
+<div class="columns is-fullwidth-mobile is-mobile is-gapless is-hidden-desktop">
+  <div class="column is-full">
+    <nav class="navbar is-primary is-spaced" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand is-flex is-justify-content-space-between is-align-items-center">
+	<a class="navbar-item">Website Navigation</a>
+	<a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+	  <span aria-hidden="true"></span>
+	  <span aria-hidden="true"></span>
+	  <span aria-hidden="true"></span>
+	  <span aria-hidden="true"></span>
+	</a>
+      </div>
+
+      <!-- Collapsible Menu -->
+      <div id="navbarMobile" class="navbar-menu is-transparent is-rounded is-mobile">
+        <div class="navbar-start is-flex is-flex-direction-column is-align-items-stretch">
+          <a href="/index.html" class="navbar-item border is-primary is-rounded has-text-centered mb-1">CHML</a>
+<!--          <a href="/tech.html" class="navbar-item border is-rounded has-text-centered mb-1">Technology</a>-->
+          <a href="https://forum.chml.network" target="_blank" class="is-primary navbar-item border is-rounded has-text-centered mb-1">Forum</a>
+          <a href="https://chml.network/mining.html" class="is-primary navbar-item border is-rounded has-text-centered mb-1"><s>Mining</s></a>
+          <hr class="custom-divider">
+          <a href="#" class="is-primary navbar-item border is-rounded has-text-centered mb-1"><i class="bi bi-google-play pr-2"></i><s>Install Android</s></a>
+          <a href="#" class="is-primary navbar-item border is-rounded has-text-centered mb-1"><i class="bi bi-apple pr-2"></i><s>Install iOS</s></a>
+        </div>
+      </div>
     </nav>
   </div>
-
-  <!-- Mobile Navigation -->
-  <div class="column is-hidden-desktop my-3">
-    <div class="navbar-brand is-primary is-rounded is-color-black">
-      <span class="navbar-item">Links</span>
-      <button class="navbar-burger" id="burger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-    <div id="nav-links" class="navbar-menu">
-      <div class="navbar-start">
-        <a href="index.html" class="navbar-item is-primary">CHML Coin</a>
-        <a href="tech.html" class="navbar-item is-primary">Technology</a>
-        <a href="maintenance.html" class="navbar-item is-primary">Forum</a>
-        <a href="#" class="navbar-item is-primary">Mining</a>
-        <a href="#" class="navbar-item is-primary">About Us</a>
-        <a href="#" class="navbar-item"><i class="bi bi-google-play pr-2"></i><strike>Install Android</strike></a>
-        <a href="#" class="navbar-item"><i class="bi bi-apple pr-2"></i><strike>Install iOS</strike></a>
-      </div>
-    </div>
-  </div>
+</div>
